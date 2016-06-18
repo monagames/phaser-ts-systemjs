@@ -1,0 +1,21 @@
+{
+  "name": "phaser-ts-systemjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.39",
+    "typescript": "^1.8.10"
+  },
+  "jspm": {
+    "dependencies": {
+      "phaser": "github:photonstorm/phaser@^2.5.0"
+    },
+    "devDependencies": {}
+  }
+}
